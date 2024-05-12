@@ -173,5 +173,5 @@ from testingsystem.`group` a
 left join testingsystem.`groupaccount` b on a.GroupID = b.GroupID
 
 group by 1 
-having count(b.accountid) > 7
+having count(b.accountid) < 7
 
